@@ -1,0 +1,24 @@
+:root {
+  /* // Основные цвета */
+  --main-bg-color: #313131;
+  --white-color: #fff;
+  --grey-light-color: #aaa;
+  --red-main-accent-color: #ff4310;
+  --black-color: #000;
+
+  /* // Цвет текста */
+  --text-grey-color: #aaa;
+  --primary-text-color: #000;
+  --text-white-color: #fff;
+}
+
+body {
+  background-color: var(--main-bg-color, #313131);
+}
+
+@media screen and (min-width: 430px) {
+  #root {
+    max-width: 430px;
+    margin: auto;
+  }
+}
